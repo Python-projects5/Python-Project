@@ -1,0 +1,13 @@
+print("---------- BMI CALCULATOR ----------")
+
+your_name = input("Enter Your Name: ")
+your_weight = float(input("Enter Your Weight(in kgs): "))
+your_height = float(input("Enter Your Height(in metres): "))
+
+bmi = your_weight / (your_height * your_height)
+
+if bmi<25:
+    print(f"{your_name} is underweight by {bmi} BMI")
+    
+else:
+    print(f"{your_name} is overweight by {bmi} BMI")
